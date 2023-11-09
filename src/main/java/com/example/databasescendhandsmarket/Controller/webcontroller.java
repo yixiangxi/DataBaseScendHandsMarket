@@ -3,9 +3,10 @@
  * 作者：yixiangxi
  * 日期：2023/11/9 20:16
  **/
-package com.example.databasescendhandsmarket.WebController;
+package com.example.databasescendhandsmarket.Controller;
 
 import com.example.databasescendhandsmarket.entity.Result;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -15,5 +16,6 @@ public class webcontroller {
     public Result hello() {
         return Result.success("Hello");
     }
+
 
 }
