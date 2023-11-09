@@ -1,0 +1,20 @@
+#全局配置文件
+#yml更加方便书写，propertices
+# yml是key-value的格式
+
+
+#配置数据库
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://172.20.38.141:3306/used trading platform?useSSL=false&useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2b8
+    #链接中的问号代表参数的意思，其他为默认配置，/used trading platform是数据库名
+    #characterEncoding=UTF-8设置字符编码
+    #    serverTimezone=GMT%2b8 设置时间，%2b代表+号代表东八区
+
+    username: yb
+    password: 123456
+
+#修改端口 默认为8080
+server:
+  port: 8080
