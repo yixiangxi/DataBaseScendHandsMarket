@@ -5,8 +5,7 @@
  **/
 package com.example.databasescendhandsmarket.Controller;
 
-import com.example.databasescendhandsmarket.entity.Result;
-import org.springframework.web.bind.annotation.PostMapping;
+import com.example.databasescendhandsmarket.common.Result;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 

@@ -3,7 +3,7 @@
  * 作者：yixiangxi
  * 日期：2023/11/9 20:24
  **/
-package com.example.databasescendhandsmarket.entity;
+package com.example.databasescendhandsmarket.common;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
